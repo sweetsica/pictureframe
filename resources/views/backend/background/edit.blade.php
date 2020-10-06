@@ -1,0 +1,348 @@
+@extends('masterlayout.master')
+@section('body')
+    <div id="wrapper">
+        <div class="main-content">
+            <div class="row small-spacing">
+                <div class="col-lg-6 col-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Basic example</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <form method="post" action="{{route('background.update',$background->id)}}" enctype="multipart/form-data">
+                                @method('PUT')
+                                {{csrf_field()}}
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Product Name</label>
+                                    <input name='background_name' type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your background name" value="{{old('background_name',$background->background_name)}}">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Background Link</label>
+                                    <input name='background_link' type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your price" value="{{old('background_name',$background->background_link)}}">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">File input</label>
+                                    <input type="file" name='background_image' id="exampleInputFile" value="{{ old('background_image', $background->background_image) }}">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                    <img src="{{asset('gallery/background/'.$background->background_link)}}" style="width:400px">
+                                </div>
+                                <div class="checkbox margin-bottom-20">
+                                    <input type="checkbox" id="chk-1"><label for="chk-1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-sm waves-effect waves-light">Submit</button>
+                            </form>
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content -->
+                </div>
+                <!-- /.col-lg-6 col-xs-12 -->
+
+                <div class="col-lg-6 col-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Horizontal form</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword3" placeholder="Enter your password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <div class="checkbox">
+                                            <input type="checkbox" id="chk-3"> <label for="chk-3">Remember me</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group margin-bottom-0">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-info btn-sm waves-effect waves-light">Sign in</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content -->
+
+                    <div class="box-content card white">
+                        <h4 class="box-title">Different Width</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <div class="row small-spacing">
+                                <div class="col-xs-3">
+                                    <input type="text" placeholder=".col-xs-3" class="form-control">
+                                </div>
+                                <!-- /.col-xs-3 -->
+                                <div class="col-xs-4">
+                                    <input type="text" placeholder=".col-xs-4" class="form-control">
+                                </div>
+                                <!-- /.col-xs-4 -->
+                                <div class="col-xs-5">
+                                    <input type="text" placeholder=".col-xs-5" class="form-control">
+                                </div>
+                                <!-- /.col-xs-5 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content card white -->
+                </div>
+                <!-- /.col-lg-6 col-xs-12 -->
+
+                <div class="col-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Inline form</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <ul class="list-inline margin-bottom-0">
+                                <li class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Full name">
+                                </li>
+                                <li class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address">
+                                </li>
+                                <li class="form-group">
+                                    <button type="submit" class="btn btn-orange waves-effect waves-light">Send invitation</button>
+                                </li>
+                            </ul>
+                            <ul class="list-inline margin-bottom-0">
+                                <li class="form-group">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email address">
+                                </li>
+                                <li class="form-group">
+                                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                                </li>
+                                <li class="checkbox">
+                                    <input type="checkbox" id="chk-2"><label for="chk-2"> Remember me</label>
+                                </li>
+                                <li class="form-group">
+                                    <button type="submit" class="btn btn-info waves-effect waves-light">Sign in</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content -->
+                </div>
+                <!-- /.col-xs-12 -->
+                <div class="col-lg-6 col-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Input Types</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inp-type-1" class="col-sm-3 control-label">Text</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inp-type-1" placeholder="Some text value ...">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inp-type-2" class="col-sm-3 control-label">Email</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" class="form-control" id="inp-type-2" placeholder="Email address">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inp-type-3" class="col-sm-3 control-label">Password</label>
+                                    <div class="col-sm-9">
+                                        <input type="password" class="form-control" id="inp-type-3" placeholder="Password" value="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inp-type-4" class="col-sm-3 control-label">Placeholder</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="inp-type-4" placeholder="Placeholder">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inp-type-5" class="col-sm-3 control-label">Textarea</label>
+                                    <div class="col-sm-9">
+                                        <textarea class="form-control" id="inp-type-5" placeholder="Write your meassage"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content card white -->
+                </div>
+                <!-- /.col-lg-6 col-xs-12 -->
+                <div class="col-lg-6 col-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Input States</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <form>
+                                <div class="form-group has-success">
+                                    <label for="input-states-1">Input With Success</label>
+                                    <div class="form-with-icon">
+                                        <input type="email" class="form-control" id="input-states-1" placeholder="Enter...">
+                                        <i class="fa fa-check item-icon item-icon-right"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group has-warning">
+                                    <label for="input-states-2">Input With Warning</label>
+                                    <div class="form-with-icon">
+                                        <input type="email" class="form-control" id="input-states-2" placeholder="Enter...">
+                                        <i class="fa fa-warning item-icon item-icon-right"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group has-error">
+                                    <label for="input-states-3">Input With Error</label>
+                                    <div class="form-with-icon">
+                                        <input type="email" class="form-control" id="input-states-3" placeholder="Enter...">
+                                        <i class="fa fa-times item-icon item-icon-right"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group has-inverse">
+                                    <label for="input-states-4">Custom Icons</label>
+                                    <div class="form-with-icon">
+                                        <input type="email" class="form-control" id="input-states-4" placeholder="Enter...">
+                                        <i class="fa fa-envelope item-icon item-icon-right"></i>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content card white -->
+                </div>
+                <!-- /.col-lg-6 col-xs-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4 col-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Input Groups (Static)</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <div class="input-group margin-bottom-20">
+                                <div class="input-group-btn"><label for="ig-1" class="btn btn-default"><i class="fa fa-user"></i></label></div>
+                                <!-- /.input-group-btn -->
+                                <input id="ig-1" type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <!-- /.input-group -->
+                            <div class="input-group margin-bottom-20">
+                                <div class="input-group-btn"><label for="ig-2" class="btn btn-default"><i class="fa fa-envelope"></i></label></div>
+                                <!-- /.input-group-btn -->
+                                <input id="ig-2" type="email" class="form-control" placeholder="Email address">
+                            </div>
+                            <!-- /.input-group -->
+                            <div class="input-group">
+                                <div class="input-group-btn"><label for="ig-3" class="btn btn-default"><i class="fa fa-usd"></i></label></div>
+                                <!-- /.input-group-btn -->
+                                <input id="ig-3" type="text" class="form-control" placeholder="Account">
+                            </div>
+                            <!-- /.input-group -->
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content card white -->
+                </div>
+                <!-- /.col-lg-4 ol-xs-12 -->
+                <div class="col-lg-4 col-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Input Groups (Button)</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <div class="input-group margin-bottom-20">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <div class="input-group-btn"><button type="button" class="btn btn-violet no-border waves-effect waves-light"><i class="fa fa-search text-white"></i></button></div>
+                                <!-- /.input-group-btn -->
+                            </div>
+                            <!-- /.input-group -->
+                            <div class="input-group margin-bottom-20">
+                                <input type="email" class="form-control" placeholder="Email address">
+                                <div class="input-group-btn"><button type="button" class="btn btn-success no-border waves-effect waves-light"><i class="fa fa-paper-plane text-white"></i></button></div>
+                                <!-- /.input-group-btn -->
+                            </div>
+                            <!-- /.input-group -->
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Email address">
+                                <div class="input-group-btn"><button type="button" class="btn btn-primary no-border waves-effect waves-light"><i class="fa fa-facebook text-white"></i></button></div>
+                                <!-- /.input-group-btn -->
+                            </div>
+                            <!-- /.input-group -->
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content card white -->
+                </div>
+                <!-- /.col-lg-4 col-xs-12 -->
+                <div class="col-lg-4 ol-xs-12">
+                    <div class="box-content card white">
+                        <h4 class="box-title">Input Groups (Dropdowns)</h4>
+                        <!-- /.box-title -->
+                        <div class="card-content">
+                            <div class="form-group margin-bottom-20">
+                                <select class="form-control">
+                                    <option value="">Nothing selected</option>
+                                    <option value="1">Dropdown 1</option>
+                                    <option value="2">Dropdown 1</option>
+                                    <option value="3">Dropdown 1</option>
+                                </select>
+                            </div>
+                            <!-- /.input-group -->
+                            <div class="input-group margin-bottom-20">
+                                <input type="email" class="form-control" placeholder="Nothing selected">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-primary text-white no-border dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Action</span> <span class="fa fa-caret-down"></span> <span class="sr-only">Toggle Dropdown</span> </button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.input-group-btn -->
+                            </div>
+                            <!-- /.input-group -->
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Nothing selected">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Action</span> <span class="fa fa-caret-down"></span> <span class="sr-only">Toggle Dropdown</span> </button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                                <!-- /.input-group-btn -->
+                            </div>
+                            <!-- /.input-group -->
+                        </div>
+                        <!-- /.card-content -->
+                    </div>
+                    <!-- /.box-content card white -->
+                </div>
+                <!-- /.col-lg-4 col-xs-12 -->
+            </div>
+            <!-- /.row small-spacing -->
+            <footer class="footer">
+                <ul class="list-inline">
+                    <li>2016 © NinjaAdmin.</li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </footer>
+        </div>
+        <!-- /.main-content -->
+    </div>
+@endsection
