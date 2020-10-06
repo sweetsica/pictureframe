@@ -1,0 +1,137 @@
+/*  standard size medium 26x18*/
+
+#images.size-26x18.position-1 #large-image li.room, #images.size-26x18 #thumbnails li.position-1 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_1.png');
+}
+
+#images.size-26x18.position-2 #large-image li.room, #images.size-26x18 #thumbnails li.position-2 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_4.png');
+}
+
+#images.size-26x18.position-3 #large-image li.room, #images.size-26x18 #thumbnails li.position-3 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_3.png');
+}
+
+
+#images.size-26x18.position-0 #large-image .room-canvas-position, #images.size-26x18 #thumbnails .position-0 .room-canvas-position {
+    top: -5%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
+}
+
+#images.size-26x18.position-1 #large-image .room-canvas-position, #images.size-26x18 #thumbnails .position-1 .room-canvas-position {
+    top: -5%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
+}
+
+#images.size-26x18.position-2 #large-image .room-canvas-position, #images.size-26x18 #thumbnails .position-2 .room-canvas-position {
+    top: -16%;
+    left: 1%;
+    width: 96%;
+    height: 83%;
+}
+
+#images.size-26x18.position-3 #large-image .room-canvas-position, #images.depth-6 #thumbnails .position-3 .room-canvas-position {
+    top: -4%;
+    left: 5.5%;
+    width: 91.5%;
+    height: 81%;
+}
+
+/* standard size large 40x26 */
+
+#images.size-40x26.position-1 #large-image .room-canvas-position, #images.size-40x26 #thumbnails .position-1 .room-canvas-position {
+    top: -15%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
+}
+
+#images.size-40x26.position-2 #large-image .room-canvas-position, #images.size-40x26 #thumbnails .position-2 .room-canvas-position {
+    top: -16%;
+    left: 1%;
+    width: 96%;
+    height: 83%;
+}
+
+#images.size-40x26.position-3 #large-image .room-canvas-position, #images.size-40x26 #thumbnails .position-3 .room-canvas-position {
+    top: -14%;
+    left: 5.5%;
+    width: 91.5%;
+    height: 81%;
+}
+
+#images.size-40x26.position-1 #large-image li.room, #images.size-40x26 #thumbnails li.position-1 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_1.png');
+}
+
+
+#images.size-40x26.position-2 #large-image li.room, #images.size-40x26 #thumbnails li.position-2 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_4.png');
+}
+
+#images.size-40x26.position-3 #large-image li.room, #images.size-40x26 #thumbnails li.position-3 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_3.png');
+}
+
+/* standard size extra large 40x32 */
+
+#images.size-40x32.position-1 #large-image .room-canvas-position, #images.size-40x32 #thumbnails .position-1 .room-canvas-position {
+    top: -15%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
+}
+
+#images.size-40x32.position-2 #large-image .room-canvas-position, #images.size-40x32 #thumbnails .position-2 .room-canvas-position {
+    top: -16%;
+    left: 1%;
+    width: 96%;
+    height: 83%;
+}
+
+#images.size-40x32.position-3 #large-image .room-canvas-position, #images.size-40x32 #thumbnails .position-3 .room-canvas-position {
+    top: -14%;
+    left: 5.5%;
+    width: 91.5%;
+    height: 81%;
+}
+
+#images.size-40x32.position-1 #large-image li.room, #images.size-40x32 #thumbnails li.position-1 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_1.png');
+}
+
+
+#images.size-40x32.position-2 #large-image li.room, #images.size-40x32 #thumbnails li.position-2 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_4.png');
+}
+
+#images.size-40x32.position-3 #large-image li.room, #images.size-40x32 #thumbnails li.position-3 {
+    display: block;
+    background-image: url('../images/rooms/demo_room_3.png');
+}
+
+
+
+#images.pc-1.frame-f2w .room-canvas:before, #images.pc-1.frame-fw .room-canvas:before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 6;
+    top: -3.0769%;
+    bottom: -3.0769%;
+    left: -2%;
+    right: -2%;
+}

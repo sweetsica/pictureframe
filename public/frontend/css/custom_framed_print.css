@@ -1,0 +1,162 @@
+
+#images.type-2 #thumbnails li.position-0, #images.frame-m.position-0 #large-image li.room {
+    background-image: url(../images/framed-prints/black/thin-vs-thick.jpg) !important;
+    display: block;
+}
+
+/* large 32x24 */
+
+#images.type-2.position-0 #large-image li.room, #images.type-2 #thumbnails li.position-0 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/50.jpg);
+}
+
+#images.type-2.position-1 #large-image li.room, #images.type-2 #thumbnails li.position-1 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/50.jpg);
+}
+
+#images.type-2.position-2 #large-image li.room, #images.type-2 #thumbnails li.position-2 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/55.jpg);
+}
+
+#images.type-2.position-3 #large-image li.room, #images.type-2 #thumbnails li.position-3 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/56.jpg);
+}
+
+#images.type-2.position-1 #large-image .room-canvas-position, #images.type-2 #thumbnails .position-1 .room-canvas-position {
+    top: 13%;
+    left: 33%;
+    width: 38.2%;
+    height: 33.5%;
+}
+
+#images.type-2.position-2 #large-image .room-canvas-position, #images.type-2 #thumbnails .position-2 .room-canvas-position {
+    top: 9%;
+    left: 31.5%;
+    width: 41.2%;
+    height: 36.13%;
+}
+
+#images.type-2.position-3 #large-image .room-canvas-position, #images.type-2 #thumbnails .position-3 .room-canvas-position {
+    top: 13%;
+    left: 33%;
+    width: 41.2%;
+    height: 36.13%;
+}
+
+#images.frame-mw #thumbnails li.position-0, #images.frame-mw.position-0 #large-image li.room {
+    background-image: url(../images/framed-prints/white/thin-vs-thick.jpg) !important;
+}
+
+#images.code-1PFA-32x24-FM02.position-1 #large-image li.room, #images.code-1PFA-32x24-FM02 #thumbnails li.position-1 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/50.jpg);
+}
+
+
+#images.code-1PFA-32x24-FM02.position-2 #large-image li.room, #images.code-1PFA-32x24-FM02 #thumbnails li.position-2 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/55.jpg);
+}
+
+#images.code-1PFA-32x24-FM02.position-3 #large-image li.room, #images.code-1PFA-32x24-FM02 #thumbnails li.position-3 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/56.jpg);
+}
+
+#images.code-1PFA-32x24-FM03.position-1 #large-image li.room, #images.code-1PFA-32x24-FM03 #thumbnails li.position-1 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/50.jpg);
+}
+
+#images.code-1PFA-32x24-FM03.position-2 #large-image li.room, #images.code-1PFA-32x24-FM03 #thumbnails li.position-2 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/55.jpg);
+}
+
+#images.code-1PFA-32x24-FM03.position-3 #large-image li.room, #images.code-1PFA-32x24-FM03 #thumbnails li.position-3 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/56.jpg);
+}
+
+#images.code-1PFA-32x24-FM06.position-3 #large-image li.room, #images.code-1PFA-32x24-FM06 #thumbnails li.position-3 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/56.jpg);
+}
+
+#images.code-1PFA-32x24-FM06.position-2 #large-image li.room, #images.code-1PFA-32x24-FM06 #thumbnails li.position-2 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/55.jpg);
+}
+
+#images.code-1PFA-32x24-FM06.position-1 #large-image li.room, #images.code-1PFA-32x24-FM06 #thumbnails li.position-1 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/rooms/50.jpg);
+}
+
+#images.type-2.size-32x24.position-1 #large-image .room-canvas-position, #images.type-2 #thumbnails .position-1 .room-canvas-position {
+    top: 13%;
+    left: 33%;
+    width: 38.2%;
+    height: 33.5%;
+}
+
+/*#images.code-1PFA-32x24-FM02.position-1 #large-image .room-canvas-position, #images.code-1PFA-32x24-FM02 #thumbnails .position-1 .room-canvas-position {*/
+/*    top: 13%;*/
+/*    left: 33%;*/
+/*    width: 38.2%;*/
+/*    height: 33.5%;*/
+/*}*/
+
+#images.size-32x24.type-2 #thumbnails .position-1 .room-canvas-position {
+    top: 13%;
+    left: 33%;
+    width: 38.2%;
+    height: 33.5%;
+}
+
+#images.size-32x24.type-2 #thumbnails .position-2 .room-canvas-position {
+    top: 9%;
+    left: 31.5%;
+    width: 41.2%;
+    height: 36.13%;
+}
+
+#images.size-32x24.type-2 #thumbnails .position-3 .room-canvas-position {
+    top: 13%;
+    left: 33%;
+    width: 41.2%;
+    height: 36.13%;
+}
+
+
+/*medium 24x16*/
+
+#images.code-1PFA-24x16-FM01.position-1 #large-image .room-canvas-position, #images.code-1PFA-24x16-FM01 #thumbnails .position-1 .room-canvas-position {
+    top: 13%;
+    left: 33%;
+    width: 38.2%;
+    height: 33.5%;
+}
+
+#images.code-1PFA-24x16-FM01.position-2 #large-image .room-canvas-position, #images.code-1PFA-24x16-FM01 #thumbnails .position-2 .room-canvas-position {
+    top: 8%;
+    left: 31.7%;
+    width: 32.525%;
+    height: 28.55%;
+}
+
+#images.code-1PFA-24x16-FM01.position-3 #large-image .room-canvas-position, #images.code-1PFA-24x16-FM01 #thumbnails .position-3 .room-canvas-position {
+    top: 8%;
+    left: 48%;
+    width: 31%;
+    height: 27.2%;
+}
+
+#images.frame-br #thumbnails li.position-0, #images.frame-br.position-0 #large-image li.room, #images.frame-br #thumbnails li.position-0, #images.frame-br.position-0 #large-image li.room {
+    background-image: url(../images/frames/thin-vs-thick-brown.png) !important;
+    display: block;
+}

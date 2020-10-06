@@ -1,0 +1,178 @@
+
+#images.type-1.size-40x26 .room-canvas {
+    width: 66.666666666667%;
+    height: 66.666666666667%;
+    left: 16.666666666667%;
+    top: 16.666666666667%;
+}
+
+#images.code-1PC6-40x26.position-0 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-0 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/rooms/80.jpg');
+}
+
+#images.code-1PC6-40x26.position-0 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-0 .room-canvas-position {
+    top: -4%;
+    left: 5.5%;
+    width: 91.75%;
+    height: 81%;
+}
+
+#images.code-1PC6-40x26.position-0 #large-image .room-canvas:after, #images.code-1PC6-40x26 #thumbnails .position-0 .room-canvas:after {
+    left: -10%;
+    top: -8.5%;
+}
+
+#images.code-1PC6-40x26.position-0 #large-image .room-canvas div:after {
+    border-color: rgba(255, 255, 255, .4) rgba(255, 255, 255, .3) rgba(0, 0, 0, .3);
+}
+
+#images.code-1PC6-40x26.position-1 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-1 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/rooms/81.jpg');
+}
+
+#images.code-1PC6-40x26.position-1 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-1 .room-canvas-position {
+    top: 7%;
+    left: 16%;
+    width: 70.75%;
+    height: 61%;
+}
+
+#images.code-1PC6-40x26.position-1 #large-image .room-canvas:after, #images.code-1PC6-40x26 #thumbnails .position-1 .room-canvas:after {
+    left: -8.5%;
+    top: -10.5%;
+}
+
+#images.code-1PC6-40x26.position-1 #large-image .room-canvas div:after {
+    border-color: rgba(0, 0, 0, .2) rgba(0, 0, 0, .3) rgba(255, 255, 255, .3) rgba(255, 255, 255, .5);
+}
+
+#images.code-1PC6-40x26.position-2 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-2 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/rooms/07.jpg');
+}
+
+#images.code-1PC6-40x26.position-2 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-2 .room-canvas-position {
+    top: -13%;
+    left: 0%;
+    width: 81%;
+    height: 72%;
+}
+
+#images.code-1PC6-40x26.position-2 #large-image .room-canvas:after, #images.code-1PC6-40x26 #thumbnails .position-2 .room-canvas:after {
+    left: -8.5%;
+    top: -10.5%;
+}
+
+#images.code-1PC6-40x26.position-2 #large-image .room-canvas div:after {
+    border-color: rgba(0, 0, 0, .2) rgba(0, 0, 0, .3) rgba(255, 255, 255, .3) rgba(255, 255, 255, .5);
+}
+
+#images.code-1PC6-40x26.position-3 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-3 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/rooms/09.jpg');
+}
+
+#images.code-1PC6-40x26.position-3 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-3 .room-canvas-position {
+    top: 7%;
+    left: 31.5%;
+    width: 51.75%;
+    height: 46%;
+}
+
+#images.code-1PC6-40x26.position-3 #large-image .room-canvas:after, #images.code-1PC6-40x26 #thumbnails .position-3 .room-canvas:after {
+    left: -8.5%;
+    top: -10.5%;
+}
+
+#images.code-1PC6-40x26.position-3 #large-image .room-canvas div:after {
+    border-color: rgba(255, 255, 255, .4) rgba(255, 255, 255, .2) rgba(0, 0, 0, .3) rgba(0, 0, 0, .2);
+}
+
+#images.code-1PC6-40x26.position-0 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-0 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/room-shots//contemporary/horiz-med-3.jpg');
+}
+
+#images.code-1PC6-40x26.position-0 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-0 .room-canvas-position {
+    top: -12%;
+    left: 7%;
+    width: 91%;
+    height: 79%;
+}
+
+#images.code-1PC6-40x26.position-1 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-1 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/room-shots//contemporary/horiz-med-4.jpg');
+}
+
+#images.code-1PC6-40x26.position-1 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-1 .room-canvas-position {
+    top: -5%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
+}
+
+#images.code-1PC6-40x26.position-1 #large-image .room-canvas:after, #images.code-1PC6-40x26 #thumbnails .position-1 .room-canvas:after {
+    left: -11.5%;
+    top: -6.5%;
+}
+
+#images.code-1PC6-40x26.position-2 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-2 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/room-shots//contemporary/horiz-med-5a.jpg');
+}
+
+#images.code-1PC6-40x26.position-2 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-2 .room-canvas-position {
+    top: -16%;
+    left: 1%;
+    width: 96%;
+    height: 83%;
+}
+
+#images.code-1PC6-40x26.position-3 #large-image li.room, #images.code-1PC6-40x26 #thumbnails li.position-3 {
+    display: block;
+    background-image: url('//a.icanvas.com/images/room-shots//contemporary/horiz-med-6.jpg');
+}
+
+#images.code-1PC6-40x26.position-3 #large-image .room-canvas-position, #images.code-1PC6-40x26 #thumbnails .position-3 .room-canvas-position {
+    top: -4%;
+    left: 5.5%;
+    width: 91.75%;
+    height: 81%;
+}
+
+/*#images.pc-1.frame-br .room-canvas:before, #images.pc-1.frame-br .room-canvas:before {*/
+/*    content: "";*/
+/*    background-color: #bf7513;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    z-index: 6;*/
+/*    top: -3.0769%;*/
+/*    bottom: -3.0769%;*/
+/*    left: -2%;*/
+/*    right: -2%;*/
+/*}*/
+
+#images.pc-1.frame-br .room-canvas:before, #images.pc-1.frame-br .room-canvas:before {
+    background-color: #bf7513;
+    top: -3.0769%;
+    bottom: -3.0769%;
+    left: -2%;
+    right: -2%;
+    display: block;
+    position: absolute;
+    z-index: 6;
+}
+
+#images.pc-1 .room-canvas div.piece-1 {
+    display: none;
+    top: -1.5385%;
+    bottom: -1.5385%;
+    left: -1%;
+    right: -1%;
+    background-image: none !important;
+    background-color: #000;
+    display: block;
+}

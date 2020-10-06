@@ -14,9 +14,6 @@ use App\Http\Controllers as Controllers;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::prefix('admin')->group(function () {
     Route::get('/home', function () {
@@ -26,5 +23,9 @@ Route::prefix('admin')->group(function () {
     Route::resource('/product', Controllers\ProductController::class);
     Route::resource('/background', Controllers\BackgroundController::class);
     Route::resource('/frame', Controllers\FrameController::class);
+});
+
+Route::get('/', function () {
+    return view('frontend.index');
 });
 
