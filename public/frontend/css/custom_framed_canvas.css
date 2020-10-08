@@ -100,6 +100,50 @@
     background-image: url(//a.icanvas.com/images/room-shots/contemporary/horiz-med-6.jpg);
 }
 
+#images.code-1PC3-40x26-FT02.position-1 #large-image li.room, #images.code-1PC3-40x26-FT02 #thumbnails li.position-1 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots//contemporary/horiz-med-4.jpg);
+}
+
+#images.code-1PC3-40x26-FT02.position-2 #large-image li.room, #images.code-1PC3-40x26-FT02 #thumbnails li.position-2 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots//contemporary/horiz-med-5a.jpg);
+}
+
+#images.code-1PC3-40x26-FT02.position-3 #large-image li.room, #images.code-1PC3-40x26-FT02 #thumbnails li.position-3 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots/contemporary/horiz-med-6.jpg);
+}
+
+#images.code-1PC3-40x26-FT04.position-1 #large-image li.room, #images.code-1PC3-40x26-FT04 #thumbnails li.position-1 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots//contemporary/horiz-med-4.jpg);
+}
+
+#images.code-1PC3-40x26-FT04.position-2 #large-image li.room, #images.code-1PC3-40x26-FT04 #thumbnails li.position-2 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots//contemporary/horiz-med-5a.jpg);
+}
+
+#images.code-1PC3-40x26-FT04.position-3 #large-image li.room, #images.code-1PC3-40x26-FT04 #thumbnails li.position-3 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots/contemporary/horiz-med-6.jpg);
+}
+
+#images.code-1PC3-40x26-FT05.position-1 #large-image li.room, #images.code-1PC3-40x26-FT05 #thumbnails li.position-1 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots//contemporary/horiz-med-4.jpg);
+}
+
+#images.code-1PC3-40x26-FT05.position-2 #large-image li.room, #images.code-1PC3-40x26-FT05 #thumbnails li.position-2 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots//contemporary/horiz-med-5a.jpg);
+}
+
+#images.code-1PC3-40x26-FT05.position-3 #large-image li.room, #images.code-1PC3-40x26-FT05 #thumbnails li.position-3 {
+    display: block;
+    background-image: url(//a.icanvas.com/images/room-shots/contemporary/horiz-med-6.jpg);
+}
 
 #images.depth-3.frame-f2.position-1 #large-image .room-canvas-position, #images.depth-3.frame-f2 #thumbnails .position-1 .room-canvas-position {
     top: -5%;
@@ -120,4 +164,67 @@
     left: 5.5%;
     width: 91.5%;
     height: 81%;
+}
+
+#images.code-1PC3-40x26-FT05.position-1 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT05 #thumbnails .position-1 .room-canvas-position {
+    top: -5%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
+}
+
+#images.code-1PC3-40x26-FT05.position-2 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT05 #thumbnails .position-2 .room-canvas-position {
+    top: -16%;
+    left: 1%;
+    width: 96%;
+    height: 83%;
+}
+
+#images.code-1PC3-40x26-FT05.position-3 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT05 #thumbnails .position-3 .room-canvas-position {
+    top: -4%;
+    left: 5.5%;
+    width: 91.5%;
+    height: 81%;
+}
+
+#images.code-1PC3-40x26-FT02.position-1 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT02 #thumbnails .position-1 .room-canvas-position {
+    top: -5%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
+}
+
+#images.code-1PC3-40x26-FT02.position-2 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT02 #thumbnails .position-2 .room-canvas-position {
+    top: -16%;
+    left: 1%;
+    width: 96%;
+    height: 83%;
+}
+
+#images.code-1PC3-40x26-FT02.position-3 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT02 #thumbnails .position-3 .room-canvas-position {
+    top: -4%;
+    left: 5.5%;
+    width: 91.5%;
+    height: 81%;
+}
+
+#images.code-1PC3-40x26-FT04.position-3 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT04 #thumbnails .position-3 .room-canvas-position {
+    top: -4%;
+    left: 5.5%;
+    width: 91.5%;
+    height: 81%;
+}
+
+#images.code-1PC3-40x26-FT04.position-2 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT04 #thumbnails .position-2 .room-canvas-position {
+    top: -16%;
+    left: 1%;
+    width: 96%;
+    height: 83%;
+}
+
+#images.code-1PC3-40x26-FT04.position-1 #large-image .room-canvas-position, #images.code-1PC3-40x26-FT04 #thumbnails .position-1 .room-canvas-position {
+    top: -5%;
+    left: 15.5%;
+    width: 93.375%;
+    height: 84%;
 }
